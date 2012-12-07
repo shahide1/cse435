@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Team Discussion Forum</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="info/localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+        	<section>
+        		<h1>Team Discussion Forum</h1>
+        	</section>
+		<section class="form">
+			<form name="input" action="docs/forum.php" onsubmit="return validateForm()" method="post">
+				Username:<br>
+				<input type="text" name="user"><br><br>Post Discussion: <br>
+				<textarea id="editor" name="editor" rows="5" cols="30"></textarea><br><br>
+				<input type="submit" value="submit" />
+			</form>
+		</section>
+		<section class="thread">
+		</br><center><a href="javascript:void(0);" onclick="PopupCenter('docs/forum.txt', 'DiscussionThread',1200,800);">View Discussion Threads</a><center>
+		</section>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+	// Popup window code
+	function PopupCenter(pageURL, title,w,h) {
+	var left = (screen.width/2)-(w/2);
+	var top = (screen.height/2)-(h/2);
+	var targetWin = window.open (pageURL,title,'toolbar=yes, location=no, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+	} 
+
+	function validateForm()
+	{
+		var x=document.forms["input"]["user"].value;
+		var y=document.forms["input"]["editor"].value;
+
+		x = x.replace(/^\s+/, '').replace(/\s+$/, '');
+		y = y.replace(/^\s+/, '').replace(/\s+$/, '');
+		
+		if (x==null || x=="" || y==null || y=="")
+  		{
+  			alert("You must enter your name and a discussion.");
+  			return false;
+  		}
+ 
+	}
+    </script>
+</body>
+</html>

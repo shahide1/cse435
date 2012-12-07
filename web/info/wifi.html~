@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Background Information</title>
+    <link rel="stylesheet" href="../css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="../index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="../links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+        <section class="backgroundinfo">
+        <h1>Pedestrian Detection System Uses Wi-Fi</h1>
+	<p class="articlelink">Click <a href="http://blog.caranddriver.com/gm-looking-to-add-wi-fi-direct–based-pedestrian-detection-system/">here</a> to go to the original article</p>
+        </section>
+        <section class="intro">
+            	<h3>Unique Features</h3>
+                <ul>
+                	<li><p>System is based on Wi-Fi Direct, A technology that allows Wi-Fi devices to communicate with one another</p></li>
+                </ul>
+                <h3>Constraints</h3>
+                <ul>
+                	<li><p>If a pedestrian does not own a Wi-Fi Direct capable device, the driver will be responsible for avoiding the pedestrian</p></li>
+                    <li><p>Not clear how the system will differentiate between a wireless device being carried by a pedestrian and being carried by other motorists</p></li>
+                    <li><p>The Wi-Fi based setup does not do much for younger kids who likely do not carry wireless devices around</p></li>
+                </ul>
+            </section>
+            <aside class="domain">
+                <h3>Safety Features</h3>
+                <ul>
+                	<li><p>A car can be equipped with Wi-Fi direct detection equipment that can determine the presence and proximity of devices equipped with the short-range wireless technology</p></li>
+                    <li><p>This data stream can then be plugged into existing driver assistance technologies GM already offers to alert the driver of an errant pedestrian about to step out from behind a parked car</p></li>
+                </ul>	      
+            </aside>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>

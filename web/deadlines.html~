@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Project Deadlines</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="info/localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>             
+        <div class="welcome">
+        	<section>
+        		<h1>Project Deadlines</h1>
+                <h3><u>10/29/12</u></h3>
+                <ul>
+                	<p><li>Intermediate Assignment 1</li></p>
+                </ul>
+                <h3><u>11/2/12</u></h3>
+                <ul>
+                    <p><li>Intermediate Assignment 2</li></p>
+                </ul>
+                <h3><u>11/12/12</u></h3> 
+                <ul>  
+                    <p><li>Summary of Customer Questions</li></p>
+                    <p><li>Prototype V1 (interface only)</li></p>
+                </ul>
+                <h3><u>11/19/12</u></h3>
+                <ul>
+                    <p><li>SRS Document V1</li></p>
+                 </ul>
+                 <h3><u>11/26/12</u></h3>
+                 <ul>
+                    <p><li>SRS Inspection Information (inspections in class)</li></p>
+                    <p><li>SRS Inspection Teams</li></p>
+                 </ul>
+                 <h3><u>11/30/12</u></h3>
+                 <ul>
+                    <p><li>Camtasia Videos, Draft1 by 4:00 p.m.</li></p>
+                 </ul>
+                 <h3><u>12/3/12</u></h3>
+                 <ul>
+		    <p><li>Customer Presentations and Demonstrations</li></p>
+                 </ul>
+		<h3><u>12/7/12</u></h3>
+		<ul>
+		    <p><li>SRS Draft2 and Prototype V2 by 3:00 p.m.</li></p>
+		    <p><li>Camtasia Videos, Draft2 by 3:00 p.m.</li></p>
+		    <p><li>Peer Review form for Final set of Deliverables (SRS, Prototype, Rev2, video, presentations, config. mgmt) </li></p>
+		<ul>
+        	</section>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>

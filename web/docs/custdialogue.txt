@@ -1,0 +1,28 @@
+APCAS-1 (11/08/2011):
+Mr. Agnew,
+
+Hello, my name is David Culham and I am the customer liaison for Team
+Pedestrian Safety System. We would like to thank you for coming in last
+Monday and answering our questions about the project. If we have any more
+questions we will be sure to contact you. We look forward to working with
+you.
+
+David Agnew - Customer:
+Thanks for the note.  Good luck with the project.
+
+
+APCAS-1 (11/16/2011):
+Mr. Agnew,
+
+We have a quick question about the APCA project. The max speed is given for
+the scenarios, however, we were wondering how the max speed is determined
+in other situations? For example the max speed would be different on the
+highway than it would be in a subdivision. Is this something the driver or
+system determines? Thank you.
+
+
+David Agnew - Customer:
+Up to the "maximum speed", all pedestrian collisions must be prevented.
+The vehicle can go faster, but the specified (0%) collision mitigation is
+not required.  It is desired, to be sure, but this project must meet
+requirements only up to max speed.

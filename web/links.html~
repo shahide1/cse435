@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Public Links</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="login.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+	<section><h1>Publicly Accessible Links</h1></section>
+	<section class="intro">
+	  <h3>General Information</h3>
+	  <ul class="localinfo">
+	      <li class="local"><a href="http://www.cse.msu.edu/~cse435/Projects/F2012/Descriptions/APCA.pdf">Original Project Description</a></li>
+	  <li class="local"><a href="">Bibliography - Coming Soon!</a></li>
+	</ul>
+	  <h3>Deliverables</h3>
+	  <ul>
+	  <li class="local"><a href="prototype.html">Prototype</a></li>
+	  <li class="local">SRS Version 1 <a href="docs/SRSV1.pdf">PDF</a>&nbsp;<a href="docs/SRSV1.doc">DOC</a></li>
+	  <li class="local"><a href="camtasia.html">Camtasia Video</a></li>
+	  <li class="local"><a href="docs/Algorithm.pdf">Algorithm Description</a></li>
+	  <li class="local"><a href="docs/APCA1.ppt">PowerPoint Presentation</a></li>
+	  <li class="local"><a href="javascript:void(0);" onclick="PopupCenter('custdialogue.txt','CustomerDialogue',1100,600);">Customer Dialogue</a></li>
+	  </ul>
+	</section>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+	// Popup window code
+	function PopupCenter(pageURL, title,w,h) {
+	var left = (screen.width/2)-(w/2);
+	var top = (screen.height/2)-(h/2);
+	var targetWin = window.open (pageURL,title,'toolbar=yes, location=no, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+	} 
+
+    </script>
+</body>
+</html>

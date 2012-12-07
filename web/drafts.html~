@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Intermediate Drafts</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a href="index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a href="links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a href="info/localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+        	<section class="members">
+        		<h1>Intermediate Drafts</h1>
+        	</section>
+            <footer>
+	      	<p>Any questions/concerns regarding this project should be directed to the course instructor, Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+		<p>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</p>
+	    </footer>
+        </div>
+    </div>
+</body>
+</html>

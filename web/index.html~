@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>CSE 435 - Team Pedestrian Safety System</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+
+</head>
+<body class="home">
+  <div class="wrap">
+    <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="info/localinfo.html">Local Info</a></h3></li>
+            </ul>
+    </header>
+    <div class="welcome">
+        <section>
+             <h1>APCAS-1: Team Pedestrian Safety System</h1>
+	     <h4 class="customer">Mr. David Agnew, Continental Automotive Systems, Inc.</h4>
+        </section>
+        <section class="intro">
+               <h3>Project Background</h3>
+               <p>According to GM, in 2010 alone, 4,280 pedestrians and 618 bicyclists were killed after being struck by automobiles. Collision avoidance is one of the most difficult and challenging automatic driving operations for motor vehicles. Avoiding a collision is used as a last resort in a critical situation by braking and/or steering away from the possible accident. A collision can be avoided by either the driver or the pedestrian. In both cases, this maneuver is considered a hazardous operation not only from the point of view of an autonomous system but from the perspective of a human driver as well.</p><br>
+               <h3>Project Description</h3>
+               <p>As with many decisions within a system, a trade-off consideration is often present when deciding course of action for dealing with hazards. Most systems are designed with this in mind so that when the system encounters a hazard it stays efficient while being as safe as possible. For this project, our goal to keep the system efficient is to minimize any lost time due to safety maneuvers and to keep the system safe by producing zero collisions.</p><br>   
+                   
+        </section>
+        <aside class="index">
+        	<h3>Team Composition</h3>
+            <p><em>Click on a team member to learn more!</em></p>
+           <ul class="team">
+           <li class="teamlist"><h4><a href="matt.html">Matthew Tarnowsky - Project Manager</a></h4></li>
+           <li class="teamlist"><h4><a href="ryan.html">Ryan Burr - Project Facilitator</a></h4></li>   
+           <li class="teamlist"><h4><a href="david.html">David Culham - Customer Liaison</a></h4></li>   
+           <li class="teamlist"><h4><a href="bobak.html">Bobak Shahidehpour - Artifacts Manager</a></h4></li>  
+           </ul>     
+            <h3>Course Links:</h3>
+            <h4><a href="http://www.cse.msu.edu/~cse435/">CSE 435 Course Website</a></h4>
+            <h4><a href="http://www.cse.msu.edu/~chengb/">Instructor Page</a></h4>
+        </aside>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+    </div>
+  </div>
+</body>
+</html>
+
+

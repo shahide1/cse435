@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Background Information</title>
+    <link rel="stylesheet" href="../css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="../index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="../links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+        <section class="backgroundinfo">
+        <h1>APCA System - Using a Fuzzy Steering Controller</h1>
+        <p class="articlelink">Click <a href="http://hal.archives-ouvertes.fr/docs/00/73/76/39/PDF/Autonomous_Pedestrian_Collision_Avoidance_Using_a_Fuzzy_Steering_Controller.pdf">here</a> to go to the original article</p>
+        </section>
+        <section class="intro">
+            <h3>Unique Features</h3>
+            <ul>
+                <li><p>Collision avoidance maneuver -A projection of a predefined route is computed with the object in the right lane </p></li>
+                <li><p>Fuzzy steering controller - Responsible for managing the steering wheel in making a decision about modifying the autonomous vehicle’s steering</p></li>
+            </ul>
+			<h3>Constraints</h3>
+            <ul>
+                <li><p>The car has to be moving on a straight road</p></li>
+                <li><p>The pedestrian has to be located in the same lane</p></li>
+                <li><p>The left lane has to be free and long enough for the pedestrian collision avoidance maneuver to be completed at the current speed</p></li>
+            </ul>
+            </section>
+            <aside class="domain">
+	      <h3>Safety Features</h3>
+	      <ul>
+		  <li><p>Guidance or lane keeping - Tries to prevent lane departure by monitoring lane markers</p></li>
+		  <li><p>Lane change - Allows the vehicle to target a different lane and track the new path</p></li>
+		  <li><p>Overtaking - Sequence of a lane change maneuver, path tracking along the new lane, and the return to the original lane</p></li>
+		  <li><p>Collision avoidance - Prevents dangerous lane departure maneuvers</p></li>
+	      </ul>
+            </aside>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>

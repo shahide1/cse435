@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Meeting Agenda</title>
+    <link rel="stylesheet" href="../css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a href="../index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a href="../links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a href="../info/localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+	    <section class="agenda">
+	    <h1>10/28/2012 Meeting Agenda</h1>
+	    <h4><center>Weekly Meetings - Thursdays at 5pm in 3353 Engineering Building</center></h4>
+		<h3>Agenda</h3>
+		<ul>
+		    <p><li>Complete Intermediate Assignment 1</li></p>
+		    <p><li>Touch base with everyone and plan the next week</li></p>
+		</ul>
+		<h3>Leader</h3>
+		<ul>
+		  <p><li>Matt Tarnowski (Project Manager)</li></p>
+		  <p><li>Keep an organized and productive structure to the meeting</li></p>
+		</ul>
+		<h3>Summary</h3>
+		<ul>
+		    <p><li>Select roles for group members</li></p>
+		    <p><li>Determine weekly meeting schedule</li></p>
+		    <p><li>Select team name - Team Pedestrian Safety System</li></p>
+		    <p><li>Web site is up and running</li></p>
+		    <p><li>Go through Intermediate Assignment 1</li></p>
+		    <ul>
+			<p><li>Broke up the task of finding background sources</li></p>
+		    </ul>
+		    <p><li>Review Intermediate Assignment 2</li></p>
+		    <ul>
+			<p><li>Decided to come up with 6-8 requirements per group member and collaborate at next meeting</li></p>
+		    </ul>
+		</ul>
+		<h3>Action List</h3>
+		  <ul>
+		  <p><li>Determine customer's email - David</li></p>
+		  <p><li>Define 6-8 requirements for assignment 2</li></p>
+		  <p><li>Continuously update website with information ? Bobby</li></p>
+		  <p><li>Email minutes to instructor/TA ? Ryan</li></p>
+		  <p><li>Turn in assignment 1 - Matt</li></p>
+		  <p><li>Timeline</li></p>
+		      <ul>
+			  <p><li>10/29/12 - Assignment 1 due</li></p>
+			  <p><li>11/1/12 - Meeting at 5pm</li></p>
+			  <p><li>11/2/12 - Assignment 2 due</li></p>
+		      </ul>
+		  </ul>
+	    </ul>
+	    </section>
+            <footer>
+	      <p>Any questions/concerns regarding this project should be directed to the course instructor, Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+	      <p>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</p>
+	    </footer>
+        </div>
+    </div>
+</body>
+</html>

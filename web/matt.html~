@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Pedestrian Safety System - Matthew Tarnowski</title>
+    <link rel="stylesheet" href="css/general.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+        <header>
+            <ul class="links">
+            <li class="linklist"><h3><a class="head" href="index.html">Home</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="links.html">Public Links</a></h3></li>
+            <li class="linklist"><h3><a class="head" href="info/localinfo.html">Local Info</a></h3></li>
+            </ul>
+        </header>
+        <div class="welcome">
+            <h1>Matthew Tarnowsky</h1>
+            <section class="memberimage">
+            <img src="images/matt.jpg" alt="matt" width="220" height="280" class="center">
+            </section>
+            <section class="members">
+                <p>Matthew Tarnowsky is a Senior majoring in Computer Science and Engineering at Michigan State University.  He is the Project Manager of Team Pedestrian Safety System, responsible for assigning tasks and providing deliverable submissions.</p>
+		<p>Matthew can be reached by email at tarnow10@msu.edu</p>
+            </section>
+        <footer>
+         <p><em>Customer: Mr. David Agnew, Continental Automotive Systems, Inc.</em></p>
+	 	<p>Any questions/concerns regarding this project should be directed to the course instructor,</p><p> Dr. Betty H.C. Cheng (chengb at cse dot msu dot edu).</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>

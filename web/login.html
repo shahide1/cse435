@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/general.css" type="text/css">
+<title>Login Page</title>
+</head>
+<body>
+<br><br><br>
+<font face="verdana,arial" size=-1>
+<center><table cellpadding='2' cellspacing='0' border='0' id='ap_table'>
+<tr><td bgcolor="blue"><table cellpadding='0' cellspacing='0' border='0' width='100%'><tr><td bgcolor="blue" align=center style="padding:2;padding-bottom:4"><b><font size=-1 color="white" face="verdana,arial"><b>Enter the password</b></font></th></tr>
+<tr><td bgcolor="white" style="padding:5"><br>
+<form name="login" id="login" method="POST">
+<center><table>
+<tr><td><font face="verdana,arial" size=-1>Password:</td><td><input type="password" id="passwordBox" onkeypress="searchKeyPress(event);" name="pswrd"></td></tr>
+<tr><td><font face="verdana,arial" size=-1>&nbsp;</td>
+<td><font face="verdana,arial" size=-1><input type="button" id="submitButton" onclick="check(this.form);" value="submit"></td></tr>
+</table></center>
+<input type='text' style='visibility: hidden' name='oDiscard'>
+</form>
+</td></tr></table></td></tr></table><br>
+<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+<a href="javascript:void(0);" onclick="javascript:history.back();">Previous page</a>
+    <script type="text/javascript">
+
+    function searchKeyPress(e)
+    {
+        // look for window.event in case event isn't passed in
+        if (typeof e == 'undefined' && window.event) { e = window.event; }
+        if (e.keyCode == 13)
+        {
+            check(login);
+        }
+    }
+    function check(form)/*function to check userid & password*/
+    {
+    /*the following code checkes whether the entered userid and password are matching*/
+    if(form.pswrd.value == "apcaspss21")
+    {
+    document.location.href = 'info/localinfo.html'; /*opens the target page while Id & password matches*/
+    }
+    else
+    {
+    alert("Invalid password - please try again");/*displays error message*/
+    }
+    }
+
+    </script>
+</body>
+</html>
+
+
+
